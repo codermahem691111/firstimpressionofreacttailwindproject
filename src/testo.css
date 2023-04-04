@@ -1,0 +1,50 @@
+#testo {
+   
+    height:70vh;
+    width:100%;
+    background-image:linear-gradient(to bottom left,rgba(17,16,16,0.678),rgba(12,10,22,0.863)), url(./assests/testo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+ }
+ 
+
+   #aziz {
+
+     display:flex;
+     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+ p {
+ 
+   font-size:20px;
+ 
+ 
+ 
+ }
+ 
+ @media screen  and (max-width : 500px) and (max-width:640px)  {
+   p {
+ 
+ 
+     font-size:16px;
+ 
+ 
+   }
+    
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
